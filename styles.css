@@ -1,0 +1,96 @@
+
+.banner{
+    background-image: url('../img/photo.jpg');
+    background-size:cover;
+    background-attachment: fixed;
+   height: 100px;
+   padding-bottom:1rem;
+   margin-top: 3rem
+  
+   ;
+}
+h1{
+   font-family: 'mundial', sans-serif;
+   font-weight: 600;
+   font-size: 80px;
+   line-height: 1;
+padding: 2rem 1rem 1rem 1rem;
+   background-color: #ffffff;
+   ;
+}
+
+h2{
+    font-family: 'mundial', sans-serif;
+    font-weight: 600; 
+    font-size: 23px;
+    line-height: 2;
+    margin-bottom: 1rem;
+}
+
+.wtmp{
+    margin-bottom: 3rem;
+}
+
+h3{
+    font-family: 'mundial', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+p{
+    font-family: 'mundial', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    padding-bottom: 1rem;
+}
+
+.copy{
+    margin-bottom: 3rem;
+}
+
+.socials{
+    display: flex;
+    justify-content: space-around;
+}
+
+ul li a{
+    color: black;
+    font-size: 20px;
+    margin: 0.5rem;    
+}
+
+ul li{
+    list-style-type:none;
+    padding: 2rem;
+    
+}
+
+a:hover{
+    color: #D80A16;
+}
+
+.footer{
+    font-family: 'mundial', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+
+@media screen and (min-width: 500px){
+    .test{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 4rem;
+    }
+    h1{
+        padding-top: 5rem;
+    }
+}
+
+@media screen and (min-width: 900px){
+    .test{
+        gap: 8rem;
+    }
+}
